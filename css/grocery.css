@@ -1,0 +1,124 @@
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.grocery-main{
+    display: block;
+}
+.container-1{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.grocery-main .container-1 .inner-image{
+    display: flex;
+}
+.grocery-main .container-1 .inner-image .inner-image-1{
+    box-sizing: border-box;
+}
+.grocery-main .container-1 .inner-image .inner-image-1 .inner-1{
+    position: relative;
+}
+.grocery-main .container-1 .inner-image .inner-image-1 .inner-1 .content-1{
+    position: absolute;
+    top:5% ;
+    left: 5%;
+    font-family: 'Jost', sans-serif;
+
+}
+.grocery-main .container-1 .inner-image .inner-image-1 .inner-1 .content-1 .thin-1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.grocery-main .container-1 .inner-image .inner-image-1 .inner-1 .content-1 .thin-2{
+    font-size: 90px;
+}
+.grocery-main .container-1 .inner-image .inner-image-1 .inner-1 .content-1 .thin-3{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.grocery-main .container-1 .inner-image .inner-image-1 .inner-1 .content-1 .style-1{
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+.category-main{
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.category-main .container-2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.category-main .category-title{
+    display: block;
+    clear: both;
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    border: none; 
+}
+.category-main .category-title > strong{
+    font-weight: 400;
+  color: #222222;
+  font-size: 40px;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+.iteam-row{
+    box-sizing: border-box;
+    display: block;
+}
+.container3{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    /* padding: 0;
+    margin: 0 auto; */
+}
+.iteam-row .container-3  .inner-image-2{
+    box-sizing: border-box;
+    display: flex;
+}
+.iteam-row .container-3  .inner-image-2 .content-2{
+    text-transform: capitalize;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.home-main{
+    box-sizing: border-box;
+    display: block;
+}
+.container-4{
+    margin-left: 65px;
+    margin-right: auto;
+    display: flex;
+}s
+.home-main .container-4 .inner-image-3{
+    display: block;
+    box-sizing: border-box;
+}
+.home-main .container-4 .inner-image-3 .inner-10{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+
+}
